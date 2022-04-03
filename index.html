@@ -20,8 +20,11 @@
 				<!--<iframe src="hozier2.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>-->
 				<!-- Header -->
 					<header id="header">
-						<iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-						<audio autoplay src='hozier2.mp3' loop controls></audio>
+						<!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe> -->
+						<audio id='audiomp3' src='hozier2.mp3' loop controls></audio>
+						<script>
+						document.getElementById('audiomp3').play();
+						</script>
 						<div class="logo">
 							<span class="icon fa-hospital"></span>
 						</div>
